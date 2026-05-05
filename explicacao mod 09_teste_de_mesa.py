@@ -12,7 +12,7 @@ class Celular:
         except ValueError:
             print("Erro: a duracao deve ser um numero inteiro.")
 
-    meu_celular = Celular("samsung", "S24")
+    meu_celular = celular("samsung", "S24")
 
     meu_celular.fazer_chamada("10")
 
